@@ -13,7 +13,7 @@ A common analogy is a restaurant:
 
 This way, the customer doesn't interact directly with the chef or the kitchen, just as users don't interact directly with the server—they use the API as an intermediary.
 
-![API Restaurant Analogy](./api-restaurant-analogy.png)
+![API Restaurant Analogy](./What-is-an-API.png)
 
 ## AWS API Gateway
 
