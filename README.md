@@ -2,6 +2,19 @@
 
 This project demonstrates basic usage of Terraform to deploy an AWS Lambda function and expose it via API Gateway.
 
+## What is an API?
+
+An **API (Application Programming Interface)** acts as a messenger that allows different software systems to communicate with each other. 
+
+A common analogy is a restaurant:
+- The **customer** (end user) makes a request (order) to the **waiter** (API).
+- The **waiter** takes the order to the **chef** (server/back-end system), who prepares the food (data/response).
+- The **waiter** then delivers the food (response) back to the customer.
+
+This way, the customer doesn't interact directly with the chef or the kitchen, just as users don't interact directly with the server—they use the API as an intermediary.
+
+![API Restaurant Analogy](./api-restaurant-analogy.png)
+
 ## Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html) installed
