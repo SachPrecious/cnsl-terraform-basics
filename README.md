@@ -15,6 +15,10 @@ This way, the customer doesn't interact directly with the chef or the kitchen, j
 
 ![API Restaurant Analogy](./api-restaurant-analogy.png)
 
+## AWS API Gateway
+
+**AWS API Gateway** is a fully managed service that makes it easy to create, publish, maintain, monitor, and secure APIs at any scale. In this project, API Gateway is used to host the API and acts as the entry point for client requests. It can integrate with multiple backend endpoints, such as AWS Lambda functions, allowing you to build serverless APIs that are scalable and cost-effective. API Gateway handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, authorization, and access control.
+
 ## Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html) installed
